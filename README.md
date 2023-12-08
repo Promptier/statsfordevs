@@ -21,7 +21,7 @@ Regardless, data will be presented in a bar chart comparing similar technology. 
 
 Tracking Github repository stars would also be a useful measure of popularity. Luckily we can use [Star History](https://star-history.com), which in turn uses Github's API to track this as seen below. You can see here I have compared the repositories of front-end frameworks. 
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwX3RIQjRlaGs3ejlkWDhhNk5ad0NBbW1tS0ZNY0s5bjJyU2RZRQ==#sveltejs/svelte&facebook/react&Angular/angular&vuejs/core&Date" frameBorder="0"></iframe>
+[![Star History Chart](https://api.star-history.com/svg?repos=sveltejs/svelte,facebook/react,Angular/angular,vuejs/core&type=Date)](https://star-history.com/#sveltejs/svelte&facebook/react&Angular/angular&vuejs/core&Date)
 
 #### Charting Library
 Currently I have been using [Chart.js](https://www.chartjs.org/) to present most data. It is a fairly easy library to use. The downside is it relies heavily on Javascript and is a bit slower than a library like [Charts.css](https://chartscss.org/). This library creates charts out of HTML tables whose data, labels, and legends are all whithin your page as is, as opposed to being dynamically rendered using Javascript. For example, this means the charts are easier to control with traditional CSS such as the chart title and labels conforming to the root font size via rem. 
